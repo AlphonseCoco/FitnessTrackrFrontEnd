@@ -1,0 +1,9 @@
+.navbar{display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    gap: 5rem;
+    background-color: greenyellow;
+    border: solid .5rem orange;
+    color: greenyellow;
+}
