@@ -60,7 +60,7 @@ const App = () => {
 
     useEffect(() => {
         fetchRoutines()
-    }, [])
+    }, [token])
 
     useEffect(() => {
         fetchActivities()

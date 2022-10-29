@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { registerUser } from '../api';
 import './register.css'
 import swal from 'sweetalert';
+import { Link } from 'react-router-dom';
 
 const Register = ({setToken, navigate}) => {
 
@@ -65,6 +66,7 @@ const Register = ({setToken, navigate}) => {
                 onClick={(ev) => {
                     ev.preventDefault();
                     handleSubmit()
+                    
                 }}
             
                 >Submit</button>
